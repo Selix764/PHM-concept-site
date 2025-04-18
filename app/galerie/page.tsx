@@ -9,13 +9,7 @@ export default function Gallery() {
       {/* Hero Section */}
       <section className="relative bg-black text-white overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <Image
-            src="/placeholder.svg?height=1080&width=1920"
-            alt="Background"
-            fill
-            className="object-cover opacity-40"
-            priority
-          />
+          <Image src="/images/top_right.png" alt="Background" fill className="object-cover opacity-40" priority />
           <div className="absolute inset-0 bg-gradient-to-r from-red-600/70 to-black/50 mix-blend-multiply" />
         </div>
 
@@ -140,63 +134,63 @@ const galleryItems = [
     title: "Rebranding Complet",
     category: "Branding",
     client: "Compania X",
-    image: "/placeholder.svg?height=600&width=600",
+    image: "/images/bottom_right.png",
     type: "image",
   },
   {
     title: "Campanie Video",
     category: "Video",
     client: "Compania Y",
-    image: "/placeholder.svg?height=600&width=600",
+    image: "/images/top_left.png",
     type: "video",
   },
   {
     title: "Sesiune Foto Produs",
     category: "Fotografie",
     client: "Compania Z",
-    image: "/placeholder.svg?height=600&width=600",
+    image: "/images/bottom_left.png",
     type: "image",
   },
   {
     title: "Identitate Vizuală",
     category: "Branding",
     client: "Start-up A",
-    image: "/placeholder.svg?height=600&width=600",
+    image: "/images/top_right.png",
     type: "image",
   },
   {
     title: "Spot Publicitar",
     category: "Video",
     client: "Compania B",
-    image: "/placeholder.svg?height=600&width=600",
+    image: "/images/bottom_right.png",
     type: "video",
   },
   {
     title: "Fotografie Corporate",
     category: "Fotografie",
     client: "Compania C",
-    image: "/placeholder.svg?height=600&width=600",
+    image: "/images/top_left.png",
     type: "image",
   },
   {
     title: "Manual de Brand",
     category: "Branding",
     client: "Compania D",
-    image: "/placeholder.svg?height=600&width=600",
+    image: "/images/bottom_left.png",
     type: "image",
   },
   {
     title: "Video Prezentare",
     category: "Video",
     client: "Compania E",
-    image: "/placeholder.svg?height=600&width=600",
+    image: "/images/top_right.png",
     type: "video",
   },
   {
     title: "Campanie Socială",
     category: "Marketing",
     client: "ONG F",
-    image: "/placeholder.svg?height=600&width=600",
+    image: "/images/bottom_right.png",
     type: "image",
   },
 ]

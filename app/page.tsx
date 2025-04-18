@@ -23,7 +23,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative bg-black text-white overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <Image src="/hero-background.jpg" alt="Background" fill className="object-cover opacity-50" priority />
+          <Image src="/images/top_right.png" alt="Background" fill className="object-cover opacity-50" priority />
           <div className="absolute inset-0 bg-gradient-to-r from-red-600/70 to-black/50 mix-blend-multiply" />
         </div>
 
@@ -80,7 +80,7 @@ export default function Home() {
               </Button>
             </div>
             <div className="relative h-[400px] rounded-lg overflow-hidden">
-              <Image src="/about-image.jpg" alt="PHM Story" fill className="object-cover" />
+              <Image src="/images/top_left.png" alt="PHM Story" fill className="object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
               <Button
                 variant="outline"
@@ -145,7 +145,7 @@ export default function Home() {
             {projects.map((project, index) => (
               <div key={index} className="group relative overflow-hidden rounded-lg h-[300px]">
                 <Image
-                  src={project.image || "/placeholder.svg"}
+                  src={project.image || "/images/bottom_right.png"}
                   alt={project.title}
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-110"
@@ -293,16 +293,16 @@ const projects = [
   {
     title: "Campanie Brand X",
     category: "Branding & Marketing",
-    image: "/project-1.jpg",
+    image: "/images/bottom_left.png",
   },
   {
     title: "Producție Video Y",
     category: "Producție Video",
-    image: "/project-2.jpg",
+    image: "/images/bottom_right.png",
   },
   {
     title: "Sesiune Foto Z",
     category: "Fotografie",
-    image: "/project-3.jpg",
+    image: "/images/top_left.png",
   },
 ]

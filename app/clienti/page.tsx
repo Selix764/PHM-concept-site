@@ -10,13 +10,7 @@ export default function Clients() {
       {/* Hero Section */}
       <section className="relative bg-black text-white overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <Image
-            src="/placeholder.svg?height=1080&width=1920"
-            alt="Background"
-            fill
-            className="object-cover opacity-40"
-            priority
-          />
+          <Image src="/images/top_right.png" alt="Background" fill className="object-cover opacity-40" priority />
           <div className="absolute inset-0 bg-gradient-to-r from-red-600/70 to-black/50 mix-blend-multiply" />
         </div>
 
@@ -191,16 +185,16 @@ export default function Clients() {
 
 // Sample data
 const clients = [
-  { name: "Brand 1", logo: "/placeholder.svg?height=100&width=200" },
-  { name: "Brand 2", logo: "/placeholder.svg?height=100&width=200" },
-  { name: "Brand 3", logo: "/placeholder.svg?height=100&width=200" },
-  { name: "Brand 4", logo: "/placeholder.svg?height=100&width=200" },
-  { name: "Brand 5", logo: "/placeholder.svg?height=100&width=200" },
-  { name: "Brand 6", logo: "/placeholder.svg?height=100&width=200" },
-  { name: "Brand 7", logo: "/placeholder.svg?height=100&width=200" },
-  { name: "Brand 8", logo: "/placeholder.svg?height=100&width=200" },
-  { name: "Brand 9", logo: "/placeholder.svg?height=100&width=200" },
-  { name: "Brand 10", logo: "/placeholder.svg?height=100&width=200" },
+  { name: "Brand 1", logo: "/images/bottom_left.png" },
+  { name: "Brand 2", logo: "/images/bottom_left.png" },
+  { name: "Brand 3", logo: "/images/bottom_left.png" },
+  { name: "Brand 4", logo: "/images/bottom_left.png" },
+  { name: "Brand 5", logo: "/images/bottom_left.png" },
+  { name: "Brand 6", logo: "/images/bottom_left.png" },
+  { name: "Brand 7", logo: "/images/bottom_left.png" },
+  { name: "Brand 8", logo: "/images/bottom_left.png" },
+  { name: "Brand 9", logo: "/images/bottom_left.png" },
+  { name: "Brand 10", logo: "/images/bottom_left.png" },
 ]
 
 const caseStudies = [
@@ -208,37 +202,37 @@ const caseStudies = [
     title: "Rebranding Complet pentru Compania X",
     category: "Branding",
     description: "Am creat o nouă identitate vizuală care a ajutat compania să se repoziționeze pe piață.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/images/bottom_right.png",
   },
   {
     title: "Campanie Video pentru Lansare Produs Y",
     category: "Video",
     description: "O campanie video care a generat peste 1 milion de vizualizări și a crescut vânzările cu 30%.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/images/top_left.png",
   },
   {
     title: "Strategie de Marketing Digital pentru Z",
     category: "Marketing",
     description: "Strategie integrată care a dus la o creștere de 45% a traficului organic și 25% a conversiilor.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/images/bottom_left.png",
   },
   {
     title: "Sesiune Foto pentru Catalogul Sezonier",
     category: "Fotografie",
     description: "Fotografii profesionale care au crescut angajamentul pe social media cu 60%.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/images/top_left.png",
   },
   {
     title: "Campanie Integrată pentru Eveniment",
     category: "Marketing",
     description: "Strategie 360° care a dus la sold-out al evenimentului cu 2 săptămâni înainte.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/images/bottom_right.png",
   },
   {
     title: "Identitate Vizuală pentru Start-up",
     category: "Branding",
     description: "Brand complet care a ajutat start-up-ul să atragă investiții de 500.000€.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/images/top_right.png",
   },
 ]
 
@@ -248,20 +242,20 @@ const testimonials = [
       "Colaborarea cu echipa PHM a fost o experiență extraordinară. Profesionalismul și creativitatea lor au depășit toate așteptările noastre.",
     name: "Alexandru Popescu",
     position: "CEO, Compania X",
-    avatar: "/placeholder.svg?height=100&width=100",
+    avatar: "/images/top_left.png",
   },
   {
     quote:
       "PHM ne-a ajutat să ne transformăm complet identitatea de brand. Rezultatele au fost imediate și impactul asupra afacerii noastre a fost semnificativ.",
     name: "Maria Ionescu",
     position: "Marketing Director, Compania Y",
-    avatar: "/placeholder.svg?height=100&width=100",
+    avatar: "/images/top_left.png",
   },
   {
     quote:
       "Apreciem foarte mult atenția la detalii și dedicarea echipei PHM. Au înțeles perfect nevoile noastre și au livrat soluții personalizate.",
     name: "Andrei Dumitrescu",
     position: "Fondator, Start-up Z",
-    avatar: "/placeholder.svg?height=100&width=100",
+    avatar: "/images/top_left.png",
   },
 ]

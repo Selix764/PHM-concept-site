@@ -8,13 +8,7 @@ export default function WhyPHM() {
       {/* Hero Section */}
       <section className="relative bg-black text-white overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <Image
-            src="/placeholder.svg?height=1080&width=1920"
-            alt="Background"
-            fill
-            className="object-cover opacity-40"
-            priority
-          />
+          <Image src="/images/top_right.png" alt="Background" fill className="object-cover opacity-40" priority />
           <div className="absolute inset-0 bg-gradient-to-r from-red-600/70 to-black/50 mix-blend-multiply" />
         </div>
 
@@ -51,7 +45,7 @@ export default function WhyPHM() {
               </p>
             </div>
             <div className="order-1 md:order-2 relative h-[400px] rounded-lg overflow-hidden">
-              <Image src="/placeholder.svg?height=800&width=600" alt="PHM Story" fill className="object-cover" />
+              <Image src="/images/top_left.png" alt="PHM Story" fill className="object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
             </div>
           </div>
